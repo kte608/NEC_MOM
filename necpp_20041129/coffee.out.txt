@@ -1,0 +1,33 @@
+
+
+
+                                __________________________________________
+                               |                                          |
+                               | NUMERICAL ELECTROMAGNETICS CODE (nec2++) |
+                               | Translated to 'C++' in Double Precision  |
+                               |              Version 1.0.4 [2004-11-23]              |
+                               |__________________________________________|
+
+
+
+                               ---------------- COMMENTS ----------------
+                                COFFEE Can antenna for 802.11b, 2.4GHz
+                                Coffee can:  open cylindrical waveguide
+                                Horn 135mm long, 100mm diameter
+                                Design by Trevor Marshall
+                                              www.TrevorMarshall.com
+                                from original concepts by  W1GHZ, PA3AEF
+                                **********************************************
+
+
+
+                                -------- STRUCTURE SPECIFICATION --------
+                                COORDINATES MUST BE INPUT IN
+                                METERS OR BE SCALED TO METERS
+                                BEFORE STRUCTURE INPUT IS ENDED
+  WIRE                                                                                 SEG FIRST  LAST  TAG
+   No:        X1         Y1         Z1         X2         Y2         Z2       RADIUS   No:   SEG   SEG  No:
+
+     1Q    0.05000   -0.00796    0.13500    0.05000    0.00796    0.13500
+          0.05000     0.00796     0.12000     0.05000    -0.00796     0.12000                               NEC++ Runtime Error: 
+                               PATCH DATA ERROR
